@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
 }
+.navBarre a{
+    color: aliceblue;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2rem;
+}
 
 h1 {
     color: aliceblue;
@@ -60,8 +65,9 @@ header a, header a:link, header a:visited, header a:focus, header a:hover, heade
     font-family: 'Oxygen', sans-serif;
 }
 
-p, td {
+p, td, li {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
     text-align: justify;
     padding: 1rem;
 }
@@ -98,7 +104,7 @@ ul {
 }
 
 li {
-    margin: 0.5rem 2rem;
+    margin: 0.3rem 1.5rem;
 }
 
 .formation {
@@ -153,8 +159,10 @@ img.logo3 {
 }
 
 .loisirs{
-    display: flex;
+    margin-bottom: 5rem;
 }
+
+
 
 /*Version mobile */
 @media screen and (max-width: 1024px) {
@@ -304,6 +312,10 @@ img.logo3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    li {
+        margin: 0.3rem 1.2rem;
     }
 }
 
