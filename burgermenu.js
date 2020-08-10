@@ -10,14 +10,14 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('open');
 });
 
-// carousel
+//carousel
 $('.multiple-items').slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 10000,
-    arrows: true,
+    autoplaySpeed: 5000,
+    arrows: false,
     dots: true,
     responsive: [
         {

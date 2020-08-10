@@ -21,7 +21,6 @@ h1 {
 h2 {
     color: black;
     font-family: 'Oxygen', sans-serif;
-    /*text-shadow: 4px 5px 4px black;*/
     font-size: 2rem;
     text-align: center;
 }
@@ -146,23 +145,12 @@ img.logo3 {
     justify-content: center;
 }
 
-/*.section-projets {*/
-/*    display: flex;*/
-/*}*/
-
-/*.projet {*/
-/*    flex: 1;*/
-/*}*/
-
-/*.projet p{*/
-/*    width: 90%;*/
-/*}*/
 
 .loisirs{
     margin-bottom: 5rem;
 }
 
-.slick-prev, .slick-next {
+.slick-next, .slick-prev {
     border-radius: 35px;
     font-size: 0;
     line-height: 0;
@@ -217,12 +205,6 @@ img.logo3 {
     .logo {
         margin: 0;
     }
-
-    /*.section-projets {*/
-    /*    flex-direction: column;*/
-    /*}*/
-
-
 
     img {
         margin: 0;
