@@ -17,7 +17,7 @@ $('.multiple-items').slick({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false,
+    arrows: true,
     dots: true,
     responsive: [
         {
